@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:id="@+id/login_fragment_rl_sub_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/login_fragment_til_phone"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_35sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:src="@drawable/ic_logo_white" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/login_fragment_til_phone"
+                style="@style/text_input2"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/dim_4dp"
+                android:layout_marginBottom="@dimen/dim_4dp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:padding="@dimen/dim_4dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                   android:id="@+id/login_fragment_tiet_phone"
+                    style="@style/text_input_edit2"
+                    android:hint="@string/phone"
+                    android:maxLength="11"
+                    android:layout_marginStart="@dimen/dim_8dp"
+                    android:layout_marginEnd="@dimen/dim_8dp"
+                    android:inputType="phone" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/login_fragment_til_password"
+                style="@style/text_input2"
+                android:layout_below="@id/login_fragment_til_phone"
+                android:layout_marginTop="@dimen/dim_4dp"
+                android:layout_marginBottom="@dimen/dim_4dp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:padding="@dimen/dim_4dp"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_fragment_tiet_password"
+                    style="@style/text_input_edit2"
+                    android:layout_marginStart="@dimen/dim_8dp"
+                    android:layout_marginEnd="@dimen/dim_8dp"
+                    android:hint="@string/password" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <CheckBox
+                android:id="@+id/login_fragment_cb_remember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/login_fragment_til_password"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/dim_8dp"
+                android:text="@string/remember_me"
+                android:button="@drawable/selector_chk_box_status"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_14sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/login_fragment_tv_forget_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/login_fragment_cb_remember"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/login_fragment_cb_remember"
+                android:layout_below="@id/login_fragment_til_password"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:gravity="center_vertical"
+                android:text="@string/forget_password"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/login_fragment_btn_login"
+                style="@style/btn3"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_below="@id/login_fragment_cb_remember"
+                android:text="@string/login" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/login_fragment_tv_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/login_tv_register"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:alpha="0.8"
+        android:clickable="true"
+        android:focusable="true"
+        android:textSize="@dimen/_12ssp"
+        android:text="@string/don_t_have_account_you_can_register_from_her"
+        android:textColor="@color/txt_color5" />
+
+</RelativeLayout>

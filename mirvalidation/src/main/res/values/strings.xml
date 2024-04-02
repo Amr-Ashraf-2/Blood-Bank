@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">mirValidation</string>
+    <string name="invalid_email">Email must be like this \"example@example.com\"</string>
+    <string name="invalid_phone1">Phone number must be \ </string>
+    <string name="invalid_phone2"> number</string>
+    <string name="invalid_confirm_password">Confirm password not match</string>
+    <string name="empty">Fields are required</string>
+    <string name="phone3">Phone number must be 11 number</string>
+    <string name="weak_password">Password is weak</string>
+</resources>

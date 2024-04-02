@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+   >
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slider_fragment_vp_slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dim_16dp"
+        android:layout_above="@+id/fragment_slider_ll_dots_btn"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:orientation="horizontal"
+        android:id="@+id/fragment_slider_ll_dots_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_70sdp"
+            android:layout_marginEnd="@dimen/_50sdp"
+            >
+
+            <ImageView
+                android:id="@+id/fragment_i_v_slider_circle1"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:src="@drawable/ic_red_circle"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                />
+
+            <ImageView
+                android:id="@+id/fragment_i_v_slider_circle2"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_orange_circle"
+                android:layout_marginStart="@dimen/_35sdp"
+                />
+
+            <ImageView
+                android:id="@+id/fragment_i_v_slider_circle3"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_orange_circle"
+                android:layout_marginStart="@dimen/_60sdp"
+                />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/fragment_slider_i_btn_slider"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginEnd="@dimen/_90sdp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_slider_arrow_btn"
+            android:padding="@dimen/_2sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_img_corner"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

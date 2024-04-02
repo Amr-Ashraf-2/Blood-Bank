@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invalid_email">يجب أن يكون البريد الإلكتروني مثل هذا \"example@example.com\"</string>
+    <string name="invalid_phone1">يجب أن يكون رقم الهاتف</string>
+    <string name="invalid_phone2">" رقم"</string>
+    <string name="invalid_confirm_password">تأكيد كلمة المرور غير متطابقة</string>
+    <string name="empty">الحقول مطلوبة</string>
+    <string name="phone3">يجب أن يكون رقم الهاتف 11 رقمًا</string>
+    <string name="weak_password">كلمة المرور ضعيفة</string>
+</resources>

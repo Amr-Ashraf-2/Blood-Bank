@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/home_container_fragment_ll_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/home_container_fragment_tl_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:tabTextAppearance="@style/disable_caps"
+        app:tabSelectedTextColor="@color/white"
+        app:tabMode="fixed"
+        app:tabTextColor="@color/white"
+        app:tabIndicatorColor="@color/frag_home_tl_selected_tab_line"
+        app:tabIndicatorHeight="@dimen/_5sdp"
+        app:tabIndicatorFullWidth="true"
+        app:tabMinWidth="@dimen/_300sdp"
+        app:tabMaxWidth="@dimen/_140sdp"
+        >
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/frag_home_tl_articles"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/frag_home_tl_donations"
+            />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <com.ashraf.amr.apps.bloodbank.adapter.CustomViewPager2
+        android:id="@+id/home_container_fragment_vp_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/home_container_fragment_fl_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+</LinearLayout>

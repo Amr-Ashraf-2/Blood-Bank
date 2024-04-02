@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <FrameLayout
+        android:id="@+id/home_cycle_activity_fl_home_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/home_cycle_activity_rg_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@color/navigation_color"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <View
+                android:id="@+id/home_cycle_activity_v_home"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_4sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:background="@color/navigation_select_color"
+                />
+
+            <RadioButton
+                android:id="@+id/home_cycle_activity_rb_home"
+                android:button="@null"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/transparent"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/_19sdp"
+                android:layout_height="@dimen/_19sdp"
+                android:src="@drawable/ic_home_nav"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <View
+                android:id="@+id/home_cycle_activity_v_profile"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_4sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:background="@color/navigation_select_color"
+                android:visibility="invisible"
+                />
+
+            <RadioButton
+                android:id="@+id/home_cycle_activity_rb_profile"
+                android:button="@null"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/transparent"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:src="@drawable/ic_user_nav"
+                android:layout_centerInParent="true"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <View
+                android:id="@+id/home_cycle_activity_v_notification"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_4sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:background="@color/navigation_select_color"
+                android:visibility="invisible"
+                />
+
+            <RadioButton
+                android:id="@+id/home_cycle_activity_rb_notification"
+                android:button="@null"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/transparent"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                >
+
+                <ImageView
+                    android:id="@+id/home_cycle_activity_img_v_notification"
+                    android:layout_width="@dimen/_23sdp"
+                    android:layout_height="@dimen/_23sdp"
+                    android:src="@drawable/ic_notifications_nav"
+                    android:layout_centerInParent="true"
+                    />
+
+                <include
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/home_cycle_activity_img_v_notification"
+                    android:layout_marginStart="@dimen/_minus10sdp"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    layout="@layout/item_custom_notification_alert"
+                    />
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <View
+                android:id="@+id/home_cycle_activity_v_more"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_4sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_minus2sdp"
+                android:background="@color/navigation_select_color"
+                android:visibility="invisible"
+                />
+
+            <RadioButton
+                android:id="@+id/home_cycle_activity_rb_more"
+                android:button="@null"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/transparent"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/ic_more_nav"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+
+    </RadioGroup>
+
+</LinearLayout>

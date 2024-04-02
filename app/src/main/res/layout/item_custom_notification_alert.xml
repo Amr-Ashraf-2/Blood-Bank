@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_client_cart_items_cl_total"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:visibility="gone"
+    android:layout_below="@+id/fragment_client_cart_items_tv_total">
+
+    <TextView
+        android:id="@+id/item_custom_notification_alert_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textColor="@color/notification_alert_color"
+        android:textSize="@dimen/_6ssp"
+        android:gravity="center"
+        android:padding="@dimen/_1sdp"
+        android:textStyle="bold"
+        android:background="@drawable/notification_alert_message"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintDimensionRatio="1:1"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

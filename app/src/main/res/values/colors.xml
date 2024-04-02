@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9A0B0B</color>
+    <color name="colorPrimaryDark">#9A0B0B</color>
+    <color name="colorAccent">#ED5107</color>
+    <color name="txt_color">#ac5254</color>
+    <color name="txt_color5">#9B1311</color>
+    <color name="txt_color2">#b4000d</color>
+    <color name="white">#fff</color>
+    <color name="red_t">#bbcec3c3</color>
+    <color name="gray">#e5e5e5</color>
+    <color name="gray2">#5d7a7c</color>
+    <color name="black">#000</color>
+    <color name="slider_bg">#fefefe</color>
+    <color name="txt_color3">#ED5107</color>
+    <color name="navigation_select_color">#c2c2c1</color>
+    <color name="navigation_color">#9A0B0B</color>
+    <color name="ptofile">#fefefe</color>
+    <color name="txt_color4">#ED5107</color>
+    <color name="red">#FF0000</color>
+    <color name="frag_splash_status_bar_color">#AB0C0A</color>
+    <color name="frag_slider_status_bar_color">#CBCBCA</color>
+    <color name="item_slider_text_color">#743C63</color>
+    <color name="notification_alert_bg_color">#CBD4D0</color>
+    <color name="notification_alert_color">#EB5109</color>
+    <color name="frag_home_tl_selected_tab_line">#CACCCB</color>
+    <color name="fragment_display_post_details_tv_bg_color">#F8F9FB</color>
+    <color name="item_custom_donation_blood_type_bg">#C10100</color>
+    <color name="fragment_display_donation_details_tv_text_color">#1D4F51</color>
+    <color name="fragment_display_donation_details_tv_notes_bg">#FAFAFC</color>
+    <color name="list_view_seperator_line_color">#F0F1F1</color>
+    <color name="red_text_color">#9B1311</color>
+    <color name="edit_text_bg_color">#E8E9EB</color>
+
+
+    <color name="face">#0789ed</color>
+    <color name="instagram">#7c57b6</color>
+    <color name="twitter">#1da1f2</color>
+    <color name="youtube">#e60d0d</color>
+    <color name="btn_red">#c10000</color>
+
+    <color name="login_tv_register">#D5CDCB</color>
+    <color name="user_cycle_bottom">#793737</color>
+    <color name="user_cycle_top">#A42525</color>
+
+
+</resources>

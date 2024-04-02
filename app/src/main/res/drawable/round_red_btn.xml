@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners android:radius="@dimen/_50sdp" />
+
+    <solid android:color="@color/item_custom_donation_blood_type_bg" />
+
+    <padding android:left="@dimen/_10sdp" android:right="@dimen/_10sdp"
+        android:top="@dimen/_5sdp" android:bottom="@dimen/_5sdp"/>
+
+</shape>

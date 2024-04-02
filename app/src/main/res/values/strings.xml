@@ -1,0 +1,137 @@
+<resources>
+
+    <string name="app_name">Blood Bank</string>
+    <string name="location">Choose Location</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="register">Register</string>
+    <string name="frag_register_tool_bar">Create a new account</string>
+    <string name="select_blood_type">Select blood type</string>
+    <string name="wait">Please wait....</string>
+    <string name="select_date">Select date</string>
+    <string name="invalid_user_name">Username must be more than 3 char</string>
+    <string name="invalid_password">Password must be more than 6 of char and number</string>
+    <string name="invalid_brd">Please select your birthday</string>
+    <string name="invalid_last_date">Please select your last donation date</string>
+    <string name="select_city">Select city</string>
+    <string name="select_government">Select governorate</string>
+    <string name="city">City</string>
+    <string name="hospital">Hospital</string>
+    <string name="patient_name">Patient name</string>
+    <string name="error">Something went wrong.</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="birthday">Birthday</string>
+    <string name="last_donation">Last donation</string>
+    <string name="phone">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="profile">Profile</string>
+    <string name="save">Save</string>
+    <string name="don_t_have_account_you_can_register_from_her">Don\'t have an Account? You can Register here</string>
+    <string name="login">Login</string>
+    <string name="remember_me">\u0020\u0020\u0020Remember me</string>
+    <string name="forget_password">Forgot your password ?</string>
+    <string name="slider1">Health is the level of the functional and metabolic competence of the organism. As for the human being, the health of individuals and societies according to the definition of the World Health Organization in the Declaration of Principles of Primary Health Care in 1978. It is a state of complete physical, mental and social integrity and not just the absence or absence of disease or disability.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="call">Call</string>
+    <string name="donation">Donation</string>
+    <string name="blood_type">Blood type</string>
+    <string name="age">Age</string>
+    <string name="bags_number">Bags Number</string>
+    <string name="address">Address</string>
+    <string name="send">Send</string>
+    <string name="note">Notes</string>
+    <string name="empty">Field required</string>
+    <string name="phone_require">Enter your phone number</string>
+    <string name="password_require">Enter your password</string>
+    <string name="new_password_require">Enter a password</string>
+    <string name="confirm_password_require">Enter password confirmation</string>
+    <string name="new_name_require">Enter your name</string>
+    <string name="new_email_require">Enter your email</string>
+    <string name="invalid_age">Please, Write your age</string>
+    <string name="invalid_bags_number">Please, Enter bags number</string>
+    <string name="invalid_hospital_name">Please, Enter hospital name</string>
+    <string name="invalid_hospital_address">Please, Enter hospital address</string>
+    <string name="hospital_addresse">Hospital Address</string>
+    <string name="hospital_name">Hospital Name</string>
+    <string name="max_notification">+9</string>
+    <string name="donations">Donations</string>
+    <string name="articles">Articles</string>
+    <string name="notification">Notification</string>
+    <string name="edit_data">Edit data</string>
+    <string name="load_more">Load more</string>
+    <string name="no_donations">No donations to retrieve, \n Please start saving the human by donating blood now</string>
+    <string name="no_notification">No notification now , \n Please start saving the human by donating blood now</string>
+    <string name="add_new_donation">Add new donation</string>
+    <string name="error_list">Some thing happened, Please try again later</string>
+    <string name="error_inter_net">No internet connection, Please check your internet connection try again later</string>
+    <string name="reload">reload</string>
+
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="change_password_code">Change password code</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="new_password">New Password</string>
+    <string name="new_password_confirmation">Password Confirmation</string>
+    <string name="enter_pin_code">Enter pin code</string>
+    <string name="enter_password">Enter a new password</string>
+    <string name="enter_password_confirm">Enter password confirmation</string>
+    <string name="message_title">Message title</string>
+    <string name="message_content">Message content</string>
+    <string name="blood_types">Blood types</string>
+    <string name="governorates">Governorates</string>
+    <string name="favourites">Favourites</string>
+    <string name="contact_us">Contact us</string>
+    <string name="about_app">About app</string>
+    <string name="about_us">About Us</string>
+    <string name="rate_app">Rate us on play store</string>
+    <string name="notifications_settings">Notifications settings</string>
+    <string name="sign_out">Sign out</string>
+    <string name="search_keyword">Enter search keyword</string>
+    <string name="select_category">Select category</string>
+    <string name="add_to_favourite">Added to favourites</string>
+    <string name="remove_from_favourite">Removed from favourites</string>
+    <string name="enter_message_title">Please, Enter message title</string>
+    <string name="enter_message_content">Please, Enter message content</string>
+    <string name="more">More</string>
+    <string name="logout">Are you sure to exit?</string>
+    <string name="create_donation">Create donation</string>
+    <string name="select_location">Select location</string>
+    <string name="GPSAlertDialogTitle">Alarm</string>
+    <string name="GPSAlertDialogMessage">Please turn on the locator</string>
+    <string name="cancel">Cancel</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="frag_home_tl_articles">Articles</string>
+    <string name="frag_home_tl_donations">Donation Requests</string>
+
+    <!--     item_slider   -->
+    <string name="item_slider_tv_text">Lorem Epsom is a virtual template that is placed in the designs to be presented to the customer to allow him to imagine how to put the texts inside the designs, whether they are printed &#x2026; brochures or flyer designs for example &#x2026; or site models &#x2026;</string>
+
+    <string name="fragment_display_donation_details_tv_notes_constant">Notes </string>
+    <string name="fragment_display_donation_details_tv_phone_constant">Phone Number: </string>
+    <string name="fragment_display_donation_details_tv_title_constant">"Donation request: "</string>
+    <string name="fragment_display_donation_details_tv_name_constant">Name: </string>
+    <string name="fragment_display_donation_details_tv_age_constant">Age: </string>
+    <string name="fragment_display_donation_details_tv_blood_type_constant">Blood Type: </string>
+    <string name="fragment_display_donation_details_tv_num_of_bags_constant">Number of bags required: </string>
+    <string name="fragment_display_donation_details_tv_hospital_constant">Hospital: </string>
+    <string name="fragment_display_donation_details_tv_address_constant">Address: </string>
+    <string name="select_address">Select Address</string>
+
+    <string name="dialog_change_password_tv_old_password">Please enter your old password</string>
+    <string name="dialog_change_password_btn_confirm">Confirm</string>
+    <string name="dialog_change_password_et_error">Please, Enter your old password</string>
+    <string name="dialog_change_password_et_wrong">Password is wrong\nIf you forgot it please logout and reset it</string>
+    <string name="notification_settings_tv">Please select the governorates and blood types you want to be notified of their donations via notifications</string>
+
+    <string name="no_posts">No posts to show</string>
+
+    <string name="notification_counter">999+</string>
+    <string name="title_activity_donation_maps">Map</string>
+    <string name="updated">Updated Successfully</string>
+    <string name="registered">Registered Successfully</string>
+    <string name="email_address">Email Address</string>
+    <string name="email_subject">Blood Bank</string>
+
+</resources>

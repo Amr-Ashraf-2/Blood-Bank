@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dim_logo">210dp</dimen>
+    <dimen name="txt_20sp">20sp</dimen>
+
+    <dimen name="dim_1dp">1dp</dimen>
+    <dimen name="dim_2dp">2dp</dimen>
+    <dimen name="dim_4dp">4dp</dimen>
+    <dimen name="dim_3dp">3dp</dimen>
+    <dimen name="dim_8dp">8dp</dimen>
+    <dimen name="dim_16dp">16dp</dimen>
+    <dimen name="dim_24dp">24dp</dimen>
+    <dimen name="dim_32dp">32dp</dimen>
+    <dimen name="dim_40dp">40dp</dimen>
+    <dimen name="dim_48dp">48dp</dimen>
+    <dimen name="dim_56dp">56dp</dimen>
+    <dimen name="dim_64dp">64dp</dimen>
+    <dimen name="dim_72dp">72dp</dimen>
+    <dimen name="dim_80dp">80dp</dimen>
+
+    <dimen name="dim_10dp">10dp</dimen>
+    <dimen name="dim_150dp">150dp</dimen>
+    <dimen name="dim_100dp">100dp</dimen>
+    <dimen name="txt_blood_size">34sp</dimen>
+
+    <dimen name="dim_30dp">30dp</dimen>
+    <dimen name="txt_14sp">14sp</dimen>
+    <dimen name="dim_30sp">30sp</dimen>
+    <dimen name="dim_12dp">12dp</dimen>
+    <dimen name="dim_140dp">140dp</dimen>
+    <dimen name="txt_30sp">30sp</dimen>
+    <dimen name="dim_250dp">250dp</dimen>
+    <dimen name="dim_220dp">220dp</dimen>
+
+
+    <dimen name="dim_n_10dp">-10dp</dimen>
+    <dimen name="dim_n_20dp">-20dp</dimen>
+    <dimen name="dim_n_30dp">-30dp</dimen>
+    <dimen name="dim_35dp">35dp</dimen>
+    <dimen name="dim_180dp">180dp</dimen>
+    <dimen name="dim_50dp">50dp</dimen>
+    <dimen name="dim_n_8dp">-8dp</dimen>
+    <dimen name="dim_45dp">45dp</dimen>
+    <dimen name="dim_14dp">14dp</dimen>
+    <dimen name="txt_10sp">10sp</dimen>
+    <dimen name="dim_notification_space">33dp</dimen>
+    <dimen name="dim_n_50dp">-50dp</dimen>
+    <dimen name="dim_260dp">260dp</dimen>
+
+    <dimen name="txt_18sp">18sp</dimen>
+    <dimen name="txt_24sp">26sp</dimen>
+
+</resources>

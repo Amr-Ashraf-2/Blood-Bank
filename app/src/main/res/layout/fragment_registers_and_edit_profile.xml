@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/registers_and_edit_profile_fragment_ll_sub_view_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/registers_and_edit_profile_fragment_rl_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"/>
+
+
+        <TextView
+            android:id="@+id/registers_and_edit_profile_fragment_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/toolbar"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:text="@string/frag_register_tool_bar"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/registers_and_edit_profile_fragment_sv_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:id="@+id/registers_and_edit_profile_fragment_ll_sub_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_12sdp"
+            android:paddingEnd="@dimen/_12sdp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/registers_and_edit_profile_fragment_til_user_name"
+                style="@style/text_input2"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/registers_and_edit_profile_fragment_tiet_user_name"
+                    style="@style/text_input_edit2"
+                    android:drawableStart="@drawable/ic_user_regular"
+                    android:inputType="textPersonName"
+                    android:hint="@string/name"
+                     />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/registers_and_edit_profile_fragment_til_email"
+                style="@style/text_input2"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/registers_and_edit_profile_fragment_tiet_email"
+                    style="@style/text_input_edit2"
+                    android:drawableStart="@drawable/ic_email"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/registers_and_edit_profile_fragment_til_brd"
+                    style="@style/text_input7"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:id="@+id/registers_and_edit_profile_fragment_tv_brd"
+                        style="@style/text_input_edit2"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:drawableStart="@drawable/ic_calendar_week_solid"
+                        android:hint="@string/birthday" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/registers_and_edit_profile_fragment_til_last_donation_date"
+                    style="@style/text_input7"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    >
+
+                    <TextView
+                        android:id="@+id/registers_and_edit_profile_fragment_tv_last_donation_date"
+                        style="@style/text_input_edit2"
+                        android:gravity="center_vertical"
+                        android:drawableStart="@drawable/ic_calendar_week_solid"
+                        android:hint="@string/last_donation" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/text_input4"
+                android:id="@+id/registers_and_edit_profile_fragment_ll_blood_type_container"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/dim_10dp"
+                    android:src="@drawable/ic_blood_drop" />
+
+                <Spinner
+                    android:id="@+id/registers_and_edit_profile_fragment_sp_blood_types"
+                    style="@style/spinner2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/register_spinner_arow"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_10sdp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/registers_and_edit_profile_fragment_ll_governorate_container"
+                    style="@style/text_input5"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/dim_10dp"
+                        android:src="@drawable/ic_home_solid" />
+
+                    <Spinner
+                        android:id="@+id/registers_and_edit_profile_fragment_sp_governments"
+                        style="@style/spinner2"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        />
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:src="@drawable/register_spinner_arow"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/registers_and_edit_profile_fragment_ll_container_city"
+                    style="@style/text_input5"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/dim_10dp"
+                        android:src="@drawable/ic_home_solid" />
+
+                    <Spinner
+                        android:id="@+id/registers_and_edit_profile_fragment_sp_city"
+                        style="@style/spinner2"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        />
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:src="@drawable/register_spinner_arow"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_gravity="center"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/registers_and_edit_profile_fragment_til_phone"
+                style="@style/text_input2"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/registers_and_edit_profile_fragment_tiet_phone"
+                    style="@style/text_input_edit2"
+                    android:drawableStart="@drawable/ic_call"
+                    android:hint="@string/phone"
+                    android:maxLength="11"
+                    android:inputType="phone" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/registers_and_edit_profile_fragment_til_password"
+                style="@style/text_input2"
+                android:visibility="visible"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/registers_and_edit_profile_fragment_tiet_password"
+                    style="@style/text_input_edit2"
+                    android:drawableStart="@drawable/ic_lock_solid"
+                    android:inputType="textPassword"
+                    android:hint="@string/password" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/registers_and_edit_profile_fragment_til_confirm_password"
+                style="@style/text_input2"
+                android:visibility="visible"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/registers_and_edit_profile_fragment_tiet_confirm_password"
+                    style="@style/text_input_edit2"
+                    android:drawableStart="@drawable/ic_lock_solid"
+                    android:inputType="textPassword"
+                    android:hint="@string/confirm_password" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/registers_and_edit_profile_fragment_ll_passwords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <EditText
+                    android:id="@+id/registers_and_edit_profile_fragment_et_pass"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/_6sdp"
+                    android:paddingTop="@dimen/_14sdp"
+                    android:paddingBottom="@dimen/_12sdp"
+                    android:paddingEnd="@dimen/_6sdp"
+                    android:inputType="textPassword"
+                    android:hint="@string/password"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:drawableStart="@drawable/ic_lock_solid"
+                    style="@style/text_input_edit_mix"
+                    />
+
+
+                <EditText
+                    android:id="@+id/registers_and_edit_profile_fragment_et_confirm_pass"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/_6sdp"
+                    android:paddingTop="@dimen/_14sdp"
+                    android:paddingBottom="@dimen/_12sdp"
+                    android:paddingEnd="@dimen/_6sdp"
+                    android:inputType="textPassword"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:hint="@string/confirm_password"
+                    android:drawableStart="@drawable/ic_lock_solid"
+                    style="@style/text_input_edit_mix"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/registers_and_edit_profile_fragment_btn_start_call"
+                style="@style/btn3"
+                android:text="@string/register"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
